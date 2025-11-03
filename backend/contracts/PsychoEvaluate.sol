@@ -23,6 +23,9 @@ contract PsychoEvaluate is ZamaEthereumConfig {
     // Event emitted when a new assessment is submitted
     event AssessmentSubmitted(address indexed user, uint256 timestamp);
 
+    // Additional event for debugging
+    event AssessmentComputed(address indexed user);
+
     /// @notice Submit encrypted questionnaire answers and compute assessment
     /// @param encryptedAnswers Array of encrypted answers (each answer is 1-5 scale)
     /// @param inputProof The input proof for all encrypted answers (same proof for all)
