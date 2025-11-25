@@ -11,7 +11,6 @@
     "@fhevm/solidity": "^0.9.1",
     "encrypted-types": "^0.0.4"
   },
-  "_comment": "Updated FHEVM dependencies",
   "devDependencies": {
     "@fhevm/hardhat-plugin": "^0.3.0-1",
     "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
